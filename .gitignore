@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+selenium-standalone.txt
+
+# Generated files
+*.d.ts
+*.js.map
+*.xml
+allure-results/
+allure-report/
+*.xml
+wdiomochawesome.*
+docs/*
+mochawesome-report/
+reports/
+
+
+# Dependency directory
+node_modules
+*.sublime-project
+*.sublime-workspace
+
+# Screenshots
+*.png
+screenshots/*
+allure-results
+
+# Misc
+npm
+.idea
+dist
+.vscode/settings.json
+.jshintrc
+confs/debug\.js
+confs/.browserstack.auth.js
+yarn-cache
+pages/apps/cruises/cruise\.js
+# report.csv
+
+
+#pages/apps/generic-booking-start/date-from-and-to\.js
+#pages/apps/generic-booking-start/index\.js
+#pages/apps/generic-booking-start/legacy\.js
+#pages/apps/generic-booking-start/settings\.js
+#pages/apps/generic-booking-start/travel-length\.js
+#pages/apps/generic-booking-start/travellers\.js
+#pages/apps/generic-booking-start/types\.js
+#playground/generic-booking-start-test\.js
+#tests/system/prio1/dynamic-packaging/cruise-to-caribbean/index\.js
+#tools/elements\.js

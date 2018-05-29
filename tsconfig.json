@@ -1,0 +1,41 @@
+// {
+//   "compilerOptions": {
+//     "allowJs": true,
+//     "module": "commonjs",
+//     "target": "es6",
+//     "declaration": false,
+//     "experimentalDecorators": true,
+//     "emitDecoratorMetadata": true,
+//     "moduleResolution": "node",
+//     "noImplicitAny": true,
+//     "preserveConstEnums": true,
+//     "removeComments": false,
+//     "inlineSourceMap": true,
+//     "strictNullChecks": true
+//   },
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "es2015",
+    "target": "es6",
+    "declaration": false,
+    "experimentalDecorators": false,
+    // "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "inlineSourceMap": false,
+    "strictNullChecks": false
+  },
+  "include": [
+    "**/*.ts"
+  ],
+
+  "exclude": [
+    "dist",
+    "docs",
+    "node_modules",
+    "screenshots"
+  ]
+}

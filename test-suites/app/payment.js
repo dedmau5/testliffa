@@ -1,0 +1,1 @@
+exports.tests = ['./tests/app/payment/payment_sprint.js'];
